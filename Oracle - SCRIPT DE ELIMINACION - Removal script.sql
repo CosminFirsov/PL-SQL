@@ -1,0 +1,65 @@
+﻿/*
+CREATED: 15/12/2016
+MODIFIED: 11/01/2017
+MODEL: ORACLE 11G RELEASE 1
+DATABASE: ORACLE 11G RELEASE 1
+*/
+
+
+-- DROP RELATIONSHIPS SECTION -------------------------------------------------
+
+ALTER TABLE "COCHE" DROP CONSTRAINT "RELATIONSHIP1"
+/
+
+
+-- DROP TRIGGERS FOR TABLES SECTION -------------------------------------------------
+
+DROP TRIGGER "ITV_PASADA"
+/
+DROP TRIGGER "TALLER_ABIERTO_CLIENTE"
+/
+
+
+
+-- DROP KEYS FOR TABLES SECTION -------------------------------------------------
+
+ALTER TABLE "COCHE" DROP CONSTRAINT "KEY2"
+/
+ALTER TABLE "COCHE" DROP CONSTRAINT "MATRICULA"
+/
+ALTER TABLE "CLIENTE" DROP CONSTRAINT "KEY1"
+/
+ALTER TABLE "CLIENTE" DROP CONSTRAINT "DNI"
+/
+ALTER TABLE "CLIENTE" DROP CONSTRAINT "EMAIL"
+/
+ALTER TABLE "CLIENTE" DROP CONSTRAINT "TELEFONO"
+/
+
+
+
+
+
+-- DROP VIEWS SECTION --------------------------------------------------- 
+
+DROP VIEW "VW_COCHE"
+/
+DROP VIEW "VW_CLIENTE"
+/
+
+
+
+-- DROP TABLES SECTION ---------------------------------------------------
+
+DROP TABLE "COCHE"
+/
+DROP TABLE "CLIENTE"
+/
+
+-- DROP SEQUENCES SECTION --------------------------------------------------- 
+
+DROP SEQUENCE "SEQ_CLIENTE"
+/
+DROP SEQUENCE "SEQ_COCHE"
+/
+

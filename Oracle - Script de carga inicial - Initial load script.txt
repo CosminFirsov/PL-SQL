@@ -1,0 +1,36 @@
+
+
+insert into cliente (cliente_id, nombre, apellido1, apellido2, email, telefono, dni)
+  VALUES (1, 'PEPITO', 'GONZALEZ', 'MARTINEZ', 'PEPE@GMAIL.COM', 658742315, '12357324T');
+  
+insert into cliente (cliente_id, nombre, apellido1, apellido2, email, telefono, dni)
+  VALUES (2, 'JOSE', 'FERNANDEZ', 'SANCHEZ', 'JOPE@HOTMAIL.COM', 942584632, '12365478G');
+  
+insert into cliente (cliente_id, nombre, apellido1, apellido2, email, telefono, dni)
+  VALUES (3, 'MILI', 'GOTO', 'SILVA', 'MIGO@YAHOO.COM', 698532145, '21549763E');
+  
+insert into cliente (cliente_id, nombre, apellido1, apellido2, email, telefono, dni)
+  VALUES (4, 'FERNANDO', 'POCO', 'MARTINEZ', 'POME@GMAIL.COM', 632659863, '36402154R');
+  
+insert into cliente (cliente_id, nombre, apellido1, apellido2, email, telefono, dni)
+  VALUES (5, 'KEVIN', 'SMITH', NULL, 'KEV@GMAIL.COM', 663254120, '23698742W');
+
+
+
+
+
+
+insert into coche (coche_id, marca, modelo, matricula, itv, cliente_id)
+  VALUES (1, 'TOYOTA', 'AURIS', '1234BBB', '10/10/18', 1);
+  insert into coche (coche_id, marca, modelo, matricula, itv, cliente_id)
+  VALUES (2, 'TOYOTA', 'YARIS', '1234CCC', '10/10/19', 1);
+  insert into coche (coche_id, marca, modelo, matricula, itv, cliente_id)
+  VALUES (3, 'PEUGEOT', '206', '1236CFH', '20/06/18', 2);
+  insert into coche (coche_id, marca, modelo, matricula, itv, cliente_id)
+  VALUES (4, 'PEUGEOT', '407', '2963FDS', '04/12/20', 3);
+  insert into coche (coche_id, marca, modelo, matricula, itv, cliente_id)
+  VALUES (5, 'RENAULT', 'CLIO', '9654DDS', '10/10/18', 4);
+  insert into coche (coche_id, marca, modelo, matricula, itv, cliente_id)
+  VALUES (6, 'LAMBORGHINI', 'GALLARDO', '2369HHH', '10/10/18', 5);
+  insert into coche (coche_id, marca, modelo, matricula, itv, cliente_id)
+  VALUES (7, 'AUDI', 'A9', '2541FFF', '10/10/18', 5);
